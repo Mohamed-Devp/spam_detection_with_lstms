@@ -1,6 +1,6 @@
-# Spam Detection with LSTMs
+# Spam Detection
 
-This project uses Natural Language Processing (NLP) and sequential models, specifically Long Short-Term Memory networks (LSTMs), to detect spam messages. The dataset used for this project is the SMS Spam Collection Dataset from Kaggle.
+This project demonstrates the training of a deep learning model capable of detecting spam messages. The dataset used for this project is the SMS Spam Collection Dataset from Kaggle.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -12,13 +12,13 @@ This project uses Natural Language Processing (NLP) and sequential models, speci
 - [Contributing](#contributing)
 
 ## Introduction
-Spam detection is a critical task in the field of communication, aimed at filtering out unwanted messages. This project leverages NLP techniques and LSTM networks to classify SMS messages as spam or ham (non-spam).
+Spam detection is a critical task in the field of communication, aimed at filtering out unwanted messages. This project leverages NLP techniques to classify SMS messages as spam or ham (non-spam).
 
 ## Dataset
 The dataset used in this project is the [SMS Spam Collection Dataset](https://www.kaggle.com/uciml/sms-spam-collection-dataset) from Kaggle. It contains a collection of SMS messages that have been labeled as either spam or ham.
 
 ## Model
-The model used in this project is an LSTM network. LSTMs are a type of recurrent neural network (RNN) capable of learning order dependence in sequence prediction problems. This makes them suitable for tasks such as spam detection, where the order of words in a message can be important for classification.
+The model used in this project is a Convolutional neural network (CNN) with a trainable embedding layer.
 
 ## Installation
 To run this project, you need to have Python installed along with the required libraries. You can install the necessary dependencies using the following command:
